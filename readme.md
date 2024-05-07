@@ -30,12 +30,4 @@ O código do arquivo 'script.js' é responsável pela validação de formulário
     - Todas essas funções atualizam a classe CSS do item de formulário correspondente para mostrar ou ocultar mensagens de erro.
 
 *Verificação do Envio do Formulário:*
-    - Após todas as validações individuais de entrada, a função `checkForm` é chamada.
-    - Ela verifica se todos os itens do formulário têm a classe `"form-content"` (ou seja, estão preenchidos corretamente).
-    - Se todos os itens do formulário forem válidos, exibe uma mensagem de sucesso (por exemplo, "Cadastrado com sucesso!").
-    - Caso contrário, solicita ao usuário que preencha todos os campos do formulário.
-
-6. **Exibição de Erros:**
-   - A função `errorInput` atualiza a mensagem de erro para um campo de entrada específico, modificando os elementos DOM associados.
-
-Lembre-se de incluir essa explicação no seu arquivo `readme.md`, juntamente com outras informações relevantes sobre o seu projeto. Boa sorte com a implementação da validação de formulário! 😊
+    Após todas as validações individuais de entrada, a função `checkForm` é chamada, verificando se todos os itens do formulário   têm a classe `"form-content"` (ou seja, estão preenchidos corretamente). Se todos os itens do formulário forem válidos, exibe uma mensagem de sucesso, caso contrário, solicita ao usuário que preencha todos os campos do formulário.
