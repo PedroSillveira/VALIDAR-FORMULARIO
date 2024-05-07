@@ -25,7 +25,7 @@ Verifica se o campo de nome de usuário está vazio. Se estiver, exibe uma mensa
 `checkInputEmail`:
 Verifica se o campo de e-mail está vazio. Se estiver, exibe uma mensagem de erro.
 
-`checkInputPassword`:    
+`checkInputPassword`:
 Verifica se o campo de senha está vazio ou tem menos de 8 caracteres. Exibe uma mensagem de erro conforme necessário.
 
 `checkInputPasswordConfirmation`:
